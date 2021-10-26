@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_vertical"
+	android:background="#FFFFFFFF"
+	android:id="@+id/image2">
+
+	<TextView
+		android:id="@+id/text"
+		android:text="X turn's tap to play "
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:translationY="-30dp"
+		android:typeface="monospace"
+		android:textColor="#FF000000"
+		android:textSize="16sp"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="400dp"
+		android:layout_marginEnd="30dp"
+		android:layout_marginTop="30dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginLeft="22dp"
+		android:background="@drawable/grid">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="105dp"
+			android:layout_marginTop="20dp">
+
+			<ImageView
+				android:layout_width="106dp"
+				android:layout_height="100dp"
+				android:tag="1"
+				android:onClick="clicked"
+				android:id="@+id/variable"/>
+
+			<ImageView
+				android:layout_width="78dp"
+				android:layout_height="105dp"
+				android:tag="2"
+				android:onClick="clicked"
+				android:layout_marginLeft="18dp"
+				android:id="@+id/variable1"/>
+
+			<ImageView
+				android:layout_width="106dp"
+				android:layout_height="100dp"
+				android:layout_marginLeft="18dp"
+				android:tag="3"
+				android:onClick="clicked"
+				android:id="@+id/variable2"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="103dp"
+			android:layout_marginTop="26dp"
+			android:onClick="clicked">
+
+			<ImageView
+				android:layout_width="106dp"
+				android:layout_height="100dp"
+				android:tag="4"
+				android:onClick="clicked"
+				android:id="@+id/variable3"/>
+			
+
+			<ImageView
+				android:layout_width="80dp"
+				android:layout_height="100dp"
+				android:layout_marginLeft="14dp"
+				android:tag="5"
+				android:onClick="clicked"
+				android:id="@+id/variable4"/>
+
+			<ImageView
+				android:layout_width="106dp"
+				android:layout_height="100dp"
+				android:tag="6"
+				android:onClick="clicked"
+				android:layout_marginLeft="18dp"
+				android:id="@+id/variable5"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="103dp"
+			android:layout_marginTop="24dp">
+
+			<ImageView
+				android:layout_width="106dp"
+				android:layout_height="100dp"
+				android:tag="7"
+				android:onClick="clicked"
+				android:id="@+id/variable6"/>
+
+			<ImageView
+				android:layout_width="78dp"
+				android:layout_height="100dp"
+				android:layout_marginLeft="18dp"
+				android:tag="8"
+				android:onClick="clicked"
+				android:id="@+id/variable7"/>
+
+			<ImageView
+				android:layout_width="106dp"
+				android:layout_height="103dp"
+				android:layout_marginLeft="18dp"
+				android:tag="9"
+				android:onClick="clicked"
+				android:id="@+id/variable8"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+
